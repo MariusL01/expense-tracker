@@ -1,0 +1,6 @@
+.background {
+  height: 88vh;
+  background-image: url("../UI/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

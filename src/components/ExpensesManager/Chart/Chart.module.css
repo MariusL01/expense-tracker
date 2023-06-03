@@ -1,0 +1,27 @@
+.chart {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #f8dfff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 11rem;
+}
+
+.chart-values {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.6rem;
+}
+
+@media (max-width: 580px) {
+  .chart {
+    font-size: 0.7rem;
+  }
+
+  .chart-values {
+    font-size: 0.5rem;
+  }
+}
